@@ -9,9 +9,7 @@ class Recipe < ApplicationRecord
     directions.split(", ")
   end
 
-  def friendly_created_at
-    created_at.strftime("%m/%d/%Y")
-  end
+_
 
   def friendly_prep_time
     hours = prep_time / 60
@@ -26,6 +24,6 @@ class Recipe < ApplicationRecord
   end
 
   def chef
-   user && user.name
-  end  
+    user && user.name
+  end
 end

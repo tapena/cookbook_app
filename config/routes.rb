@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-
   namespace :api do
-    post "/users" => 'users#create'
+    post '/users' => 'users#create'
 
+    post '/sessions' => 'sessions#create'
 
     get "/recipes" => 'recipes#index'
     post "/recipes" => 'recipes#create'
