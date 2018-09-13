@@ -12,3 +12,4 @@ class Api::UsersController < ApplicationController
     render json: {errors: user.erros.full_messages}, status: :bad_request
   end  
 end
+end
