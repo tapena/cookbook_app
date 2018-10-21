@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+#gem 'rack‐cors', :require =>'rack/cors'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -50,3 +51,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'http'
 
 gem "jwt"
+
